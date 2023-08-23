@@ -3,13 +3,13 @@ F(Base,Precisão,MenorExpoente,MaiorExpoente)
   => sinal é implicito  
   => normalizado é implicito  
 ex:  
- `
+$\`
   12,3 => F(10,3,x,y) => fl(x) 
 
   1,23 => F(10,3,x,y)  
 
   0,123 => F(10,3,x,y)
-`
+\`$
     => nese caso o professor usou {-2, 2}, mas acredito q um valor dado  
 
 +-(+- expoente) mantiça 
