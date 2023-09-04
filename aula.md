@@ -38,5 +38,23 @@ ex:
     x ⊕ y = fl(fl(x) + fl(y))  
 
     x ⊖ y ⊕ z (colocar os simbolos corretos)  
-        fl(fl(x) - fl(y)) ⊕ z)  
+        fl((fl(x) - fl(y)) ⊕ z)  
         fl(fl(fl(x) - fl(y)) + fl(z))  
+**Norma**  
+Norma 1  
+
+Norma Euclidiana  
+
+Norma de máximo ou infinito  
+
+**Zero de Funções**   
+Método da Bisseção  
+
+Método da Falsa Posição  
+
+Método de Newton  
+  tan(x)=(f(x0) - 0)/(x0-x1) #achar os simbolos pra x0 e etc  
+  x0 é dado SEMPRE  
+  x1=x0- (f(x0)/f'(x0))           |   f'(x0)!= 0  
+  x2=x1- (f(x1)/f'(x1))           |   f'(x1)!= 0  
+  xn= xn-1 - (f(xn-1)/f'(xn-1))   |   f'(xn)!= 0  
