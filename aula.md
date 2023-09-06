@@ -40,6 +40,7 @@ ex:
     x ⊖ y ⊕ z (colocar os simbolos corretos)  
         fl((fl(x) - fl(y)) ⊕ z)  
         fl(fl(fl(x) - fl(y)) + fl(z))  
+
 **Norma**  
 Norma 1  
 
@@ -47,14 +48,25 @@ Norma Euclidiana
 
 Norma de máximo ou infinito  
 
-**Zero de Funções**   
+**Zero de Funções/Metodo de Newton**   
 Método da Bisseção  
 
 Método da Falsa Posição  
 
 Método de Newton  
-  tan(x)=(f(x0) - 0)/(x0-x1) #achar os simbolos pra x0 e etc  
-  x0 é dado SEMPRE  
-  x1=x0- (f(x0)/f'(x0))           |   f'(x0)!= 0  
-  x2=x1- (f(x1)/f'(x1))           |   f'(x1)!= 0  
-  xn= xn-1 - (f(xn-1)/f'(xn-1))   |   f'(xn)!= 0  
+    tan(x)=(f(x0) - 0)/(x0-x1) #achar os simbolos pra x0 e etc  
+    x0 é dado SEMPRE  
+    x1=x0- (f(x0)/f'(x0))           |   f'(x0)!= 0  
+    x2=x1- (f(x1)/f'(x1))           |   f'(x1)!= 0  
+    xn= xn-1 - (f(xn-1)/f'(xn-1))   |   f'(xn)!= 0  
+
+obs:  
+    o Método de newton pode ser escrito (usando algebrismo) como;  
+        xn = ((xn-1*f(xn-1))-f(xn-1))/f'(xn-1)  
+
+**Metodo da Secante**
+
+    x0,x1 são dados  
+    x2= (x1*f(x0)-x0*(f(x1)))/(f(x0)-f(x1))  
+    x3= (x2*f(x1)-x1*(f(x2)))/(f(x1)-f(x2))  
+    xn= (xn-1*f(xn-2)-xn-2*(f(xn-1)))/(f(n-2)-f(xn-1))  
